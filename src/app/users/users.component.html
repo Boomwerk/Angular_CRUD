@@ -1,0 +1,25 @@
+<div class="container mt-5">
+    <div class="card mt-4" *ngFor="let user of users">
+        
+        <div class="card-body d-flex justify-content-around align-center"> 
+            
+            <div class="left" >
+               
+                <p>id :{{user.id}}</p>
+                <p>name: {{user.name}}</p>
+            </div>
+
+            <div class="right">
+                <p>city :{{user.address.city}}</p>
+                <p> street: {{user.address.street}}</p>
+            </div>
+            
+        </div>
+
+    </div>
+    
+</div>
+
+
+
+
